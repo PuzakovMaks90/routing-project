@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 50px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    display: block;
+    color: black;
+}
+
+input,
+label,
+button,
+fieldset {
+    display: block;
+    border: none;
+    background: transparent;
+}
+
+button {
+    padding: 10px;
+    background: green;
+    color: white;
+}
+
+main {
+    width: 100%;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.router-outlet {
+    width: 100%;
+}
+
+.filter-block {
+    padding-right: 20px;
+    margin-right: 20px;
+    border-right: 2px solid silver;
+}
+
+.filter-form {}
+.filter-data {}
+
+.filter {
+    margin-bottom: 20px;
+    border-bottom: 2px solid silver;
+}
+
+.filter-title {
+    margin-bottom: 10px;
+}
+
+.filter-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.filter-item span {
+    margin-left: 5px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-item {
+    margin: 3px;
+}
+.menu-item a {
+    padding: 10px 20px;
+    border: 2px solid silver;
+}
+.menu-item a:hover {
+    background: #474747;
+    color: silver;
+}
+.menu-item.active a {
+    background: #474747;
+    color: silver;
+}
+
+.posts {}
+.post {
+    padding: 10px;
+    border: 1px solid silver;
+    margin: 5px;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product {
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid silver;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.params {}
+.params-item {
+    display: flex;
+}
+
+.params-item span {
+
+}
+
+.params-item span:first-child {
+    min-width: 100px;
+
+}
+.params-item span:last-child {
+    font-weight: bold;
+}
+.params-item:last-child span {
+    margin-top: 10px;
+    padding-bottom: 3px solid black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
